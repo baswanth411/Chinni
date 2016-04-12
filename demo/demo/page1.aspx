@@ -25,7 +25,10 @@
             <asp:TextBox ID="txtPassword" runat="server"></asp:TextBox>
         </td>
     </tr>
-        <button id="btnSubmit" runat="server"></button>
+        <tr>
+            <asp:Button ID="btnSubmit" Text="Submit" OnClick="btnSubmit_OnClick" runat="server" />
+        </tr>
+        
     </div>
     </form>
 </body>

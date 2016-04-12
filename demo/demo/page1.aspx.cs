@@ -13,5 +13,9 @@ namespace demo
         {
 
         }
+        protected void btnSubmit_OnClick(object sender, EventArgs e)
+        {
+            Response.Redirect("example.html");
+        }
     }
 }
